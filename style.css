@@ -1,0 +1,208 @@
+html{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,101,121,1) 0%, rgba(35,81,147,1) 25%, rgba(142,0,255,1) 75%);
+  height:100%;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center
+}
+
+body{
+  background-color: black;
+  height:450px;
+  width:300px;
+  
+}
+.calculator{
+  height: 350px;
+  position:relative;
+  top:100px;
+  background-color: paleturquoise;
+}
+.first-row{
+  height: 70px;
+  display:flex;
+}
+
+.first-row .AC #AC{
+  width:150px;
+  height: 100%;
+  position:relative;
+}
+
+.first-row .DEL #DEL{
+  width:75px;
+  height: 100%;
+  margin:0px;
+  position:relative;
+}
+.first-row .DEL #division{
+  width:75px;
+  height: 20%;
+  margin:0px;
+  font-size: 25px;
+  position:absolute;
+  border-right: 0px;
+}
+
+
+.second-row{
+  height: 70px;
+  margin: 0px;
+}
+.second-row #one{
+  width:75px;
+  height: 70px;
+  position:relative;
+  bottom: 182px;
+}
+.second-row #two{
+  width:75px;
+  height: 70px;
+  position:relative;
+  bottom: 182px;
+  right: 4px;
+}
+.second-row #three{
+  width:75px;
+  height: 70px;
+  position:relative;
+  bottom: 182px;
+  left: -8px;
+}
+.second-row #multiply{
+  width:75px;
+  height: 70px;
+  position:relative;
+  bottom: 252px;
+  left: 225px;
+  border-right: 0px;
+}
+.third-row{
+  height: 70px;
+}
+.third-row #four{
+  width:75px;
+  height: 70px;
+  position:relative;
+  bottom: 184px;
+  left: 0px;
+}
+.third-row #five{
+  width:75px;
+  height: 70px;
+  position:relative;
+  bottom: 184px;
+  right: 4px;
+}
+.third-row #six{
+  width:75px;
+  height: 70px;
+  position:relative;
+  bottom: 184px;
+  left: -8px;
+}
+.third-row #add{
+  width:75px;
+  height: 70px;
+  position:relative;
+  bottom: 254px;
+  left: 225px;
+  border-right: 0px;
+}
+.fourth-row{
+  height: 70px;
+}
+.fourth-row #seven{
+  width:75px;
+  height: 70px;
+  position:relative;
+  bottom: 186px;
+  left: 0px;
+}
+.fourth-row #eight{
+  width:75px;
+  height: 70px;
+  position:relative;
+  bottom: 186px;
+  left: -4px;
+}
+.fourth-row #nine{
+  width:75px;
+  height: 70px;
+  position:relative;
+  bottom: 186px;
+  left: -8px;
+}
+.fourth-row #minus{
+  width:75px;
+  height: 70px;
+  position:relative;
+  bottom: 256px;
+  left: 225px;
+  border-right: 0px;
+}
+.fifth-row{
+  height: 70px;
+}
+.fifth-row #dot{
+  width:75px;
+  height: 76px;
+  position:relative;
+  bottom: 186px;
+  left: 0px;
+}
+.fifth-row #zero{
+  width:75px;
+  height: 76px;
+  position:relative;
+  bottom: 186px;
+  left: -4px;
+}
+.fifth-row #equal{
+  width:150px;
+  height: 76px;
+  position:relati;
+  bottom: 262px;
+  left:150px;
+  border-right: 0px;
+}
+
+#input{
+  background-color: black;
+  position:relative;
+  height: 100px;
+  bottom: 630px;
+}
+
+#input #equation{
+  color: paleturquoise;
+  text-align: right;
+  font-size: 18px;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  margin: 10px;
+}
+#input #result{
+  color:white;
+  text-align: right;
+  font-size: 30px;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  position: relative;
+  top: 10px;
+  left: -10px;
+}
+
+button{
+  position:relative;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  background-color: paleturquoise;
+  border-color: paleturquoise;
+  border: 2px solid white;
+  font-size: 18px;
+  font-weight: bold;
+}
+button:hover{
+  background-color: aliceblue;
+}

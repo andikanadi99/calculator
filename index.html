@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <div class="calculator">
+      <!-- First row-->
+      <div class="first-row">
+        <div class="AC"> 
+          <button id="AC"onclick="reset()"> AC </button>
+        </div>
+        <div class="DEL"> 
+          <button id="DEL"onclick="deleteEq()"> DEL </button>
+          <button id="division"value ="/"> / </button>
+        </div>
+      </div>
+    </div>
+      <!-- Second row-->
+      <div class="second-row">
+        <button id="one" value ="1"onclick="getNumber()"clicked = 'false'>1</button>
+        <button id="two"value ="2"onclick="getNumber()">2</button>
+        <button id="three"value ="3"onclick="getNumber()">3</button>
+        <button id="multiply"value ="*">*</button>
+      </div>
+      <!-- Third row-->
+      <div class="third-row">
+        <button id="four"value ="4"onclick="getNumber()">4</button>
+        <button id="five"value ="5"onclick="getNumber()">5</button>
+        <button id="six"value ="6"onclick="getNumber()">6</button>
+        <button id="add"value ="+">+</button>
+      </div>
+      <!-- Fourth row-->
+      <div class="fourth-row">
+        <button id="seven"value ="7"onclick="getNumber()">7</button>
+        <button id="eight"value ="8"onclick="getNumber()">8</button>
+        <button id="nine"value ="9"onclick="getNumber()">9</button>
+        <button id="minus"value ="-">-</button>
+      </div>
+      <!-- Fifth row-->
+      <div class="fifth-row">
+        <button id="dot"value =".">.</button>
+        <button id="zero"value ="0"onclick="getNumber()">0</button>
+        <button id="equal"onclick="calc()">=</button>
+      </div>
+
+      <div id="input">
+        <!-- 
+        <div class="equation">
+          32 + 6
+        </div>
+        <div class="result">
+          40
+        </div>
+        -->
+      </div>
+
+    </div>
+    <!-- script connector -->
+    <script src="script.js"></script>
+  </body>
+</html>
